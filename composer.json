@@ -1,0 +1,12 @@
+{
+  "name": "ivanboring/drupal_youtube_dl",
+  "description": "Youtube downloader for Drupal",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Marcus Johansson",
+      "email": "me@marcusmailbox.com"
+    }
+  ]
+}

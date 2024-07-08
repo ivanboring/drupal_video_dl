@@ -1,0 +1,5 @@
+name: Video Downloader
+type: module
+description: Download from a Youtube/Vimeo/Facebook/1000 other video provider links into a video or audio file field.
+package: AI Tools
+core_version_requirement: ^10.3 || ^11
