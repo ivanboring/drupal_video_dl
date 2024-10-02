@@ -2,8 +2,8 @@
 
 namespace Drupal\drupal_video_dl\Plugin\AiAutomatorType;
 
-use Drupal\ai_automator\PluginBaseClasses\ExternalBase;
-use Drupal\ai_automator\PluginInterfaces\AiAutomatorTypeInterface;
+use Drupal\ai_automators\PluginBaseClasses\ExternalBase;
+use Drupal\ai_automators\PluginInterfaces\AiAutomatorTypeInterface;
 use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Field\FieldDefinitionInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;

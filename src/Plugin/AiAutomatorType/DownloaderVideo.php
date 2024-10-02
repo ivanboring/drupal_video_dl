@@ -2,8 +2,8 @@
 
 namespace Drupal\drupal_video_dl\Plugin\AiAutomatorType;
 
-use Drupal\ai_automator\Attribute\AiAutomatorType;
-use Drupal\ai_automator\PluginInterfaces\AiAutomatorTypeInterface;
+use Drupal\ai_automators\Attribute\AiAutomatorType;
+use Drupal\ai_automators\PluginInterfaces\AiAutomatorTypeInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
 
