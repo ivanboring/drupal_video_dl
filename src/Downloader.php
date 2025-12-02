@@ -59,8 +59,8 @@ class Downloader {
     // Set a tempname.
     $tmpFile = $this->fileSystem->tempnam($this->fileSystem->getTempDirectory(), 'download_');
     if ($type == 'video') {
-      exec("$exec -o $tmpFile \"$url\" --merge-output-format=webm", $output, $return);
-      $tmpFile = $tmpFile . '.webm';
+      exec("$exec -o $tmpFile \"$url\" --merge-output-format=mp4", $output, $return);
+      $tmpFile = $tmpFile . '.mp4';
     }
     else {
       exec("$exec -o $tmpFile \"$url\" --extract-audio --audio-format mp3", $output, $return);
